@@ -37,8 +37,8 @@
     // })
     // show the popover
     function showPopover(beerdata, el) {
-        popOver.querySelector(".ipa-rating").textContent = `IPA Rating: ${beerdata.IpaRating}`;
-        popOver.querySelector(".ratings").textContent = `IPA Rating: ${beerdata.ratings}`;
+        popOver.querySelector(".ipa-rating").textContent = `IPA Rating: ${beerdata.Name}`;
+        popOver.querySelector(".ratings").textContent = `IPA Rating: ${beerdata.Quote}`;
         popOver.querySelector(".beer-description").textContent = beerdata.description;
 
         popOver.classList.add('show-popover');
