@@ -4,8 +4,6 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	#beerGraphic { cursor: pointer; }
-
-	.yellow{fill:#0000ff;}
 </style>
 <path id="bottle" class="st0" d="M97.5,233.8c-1.9,0-3.9,0-6-0.1c-2,0.1-4,0.1-5.9,0.1c-4.6,0-9.6,0.2-13.9-1.3
 	c-7.3-2.4-4.1-13.9-2.4-19.4c1.1-3.6,2-6.9,1.7-11.3c-0.1-1.4-0.7-5-1.6-10c-3.7-21.8-11.3-67.1-5.5-87.6l0-0.1
@@ -117,13 +115,7 @@
 
 <defs>
 	<script>
-	<!-- We can write JS from here -->
 		// stub
-		document.querySelector("#beerGraphic").addEventListener("click", function(){
-			console.log("Clicked on this SVG: ", this.id);
-			this.querySelector("#lStar").classList.toggle('yellow');
-			this.querySelector("#rStar").classList.toggle('yellow');
-		});
 	</script>
 </defs>
 </svg>

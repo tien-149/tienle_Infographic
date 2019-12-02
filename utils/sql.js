@@ -1,7 +1,7 @@
-const sql=require('mysql');
-const config=require('../config');
+const sql = require('mysql');
+const config = require('../config');
 
-const connect=sql.createConnection({
+const connect = sql.createConnection({
     host: config.host,
     password: config.password,
     user: config.user,
@@ -9,4 +9,4 @@ const connect=sql.createConnection({
     database: config.database
 })
 
-module.exports=connect;
+module.exports = connect;

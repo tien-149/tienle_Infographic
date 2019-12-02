@@ -1,8 +1,9 @@
-const config={
+const config = {
     host: 'localhost',
-    user:'root',
-    password: 'root',
+    user: 'root',
+    password: 'root', // blank for windows
     database: 'beerstats',
-    port: 8889 //3306 for woindow or a new mac
+    port: 8889 // 3306 for windows or newer macs
 }
-module.exports=config;
+
+module.exports = config;
